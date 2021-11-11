@@ -22,6 +22,6 @@ async function bootstrap() {
   const document = SwaggerModule.createDocument(app, options);
   app.useStaticAssets(join(__dirname, '..', 'upload'));
   app.enableCors();
-  await app.listen(1234);
+  await app.listen(process.env.PORT || 3000);
 }
 bootstrap();

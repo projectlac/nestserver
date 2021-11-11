@@ -1,3 +1,3 @@
 export const DefaultHost = () => {
-  return 'http://localhost:1234/';
+  return 'https://njnej.herokuapp.com/';
 };
